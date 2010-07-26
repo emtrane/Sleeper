@@ -1,0 +1,31 @@
+body {	
+	position: absolute;
+	font: 12px "Helvetica Neue";
+	font-weight: bold;
+	color: #eee;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	margin: 0;
+        width: 260px;
+	height: 170px;
+}
+
+#entry {
+	position:absolute;
+	z-index:10;
+        top: 25px;
+	left: 20px;
+}
+#status {
+	position:absolute;
+	z-index:10;
+	top: 29px;
+	left: 20px;
+}
+#cancel-button {
+	position:absolute;
+	z-index:10;
+        top: 26px;
+	left: 192px;
+}

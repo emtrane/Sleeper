@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+<!-- The CSS file for this widget -->
+<style type="text/css">
+	@import "Sleeper.css";
+</style>
+
+<!-- The JavaScript for this widget -->
+<script type='text/javascript' src='Sleeper.js' charset='utf-8'/>
+
+</head>
+
+<body onload="init()" id="body">
+
+<img src="Default.png" />
+
+<form id="entry" onsubmit="setDelay(); return false;">
+Sleep in
+<input id="amount"  class="input" type="text" editable="true" size="4" />
+<select id="unit" class="popup">
+<option value="1">minutes</option>
+<option value="60">hours</option>
+</select>
+<input type="button" value="Set" onclick="setDelay()"/>
+</form>
+
+<div id="status">
+</div>
+<div id="cancel-button">
+<input type="button" value="Stop" onclick="init()" />
+</div>
+
+</body>
+
+</html>
